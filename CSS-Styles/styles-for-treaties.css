@@ -43,19 +43,3 @@ main h4{
     font-size: larger;
     font-weight: bold;
 }
-#home-maps figure, img{
-    display: inline;
-    height: 30%;
-    width: 70%;
-    border: 5px solid white;
-}
-
-#home-maps figcaption, a{
-    text-decoration: none;
-    color: black;
-    display: flex;
-}
-
-#home-maps figcaption a:hover{
-    color: honeydew;
-}
