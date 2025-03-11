@@ -35,9 +35,14 @@ nav a:hover{
 main{
     font-family: cursive;
     color: rgb(36, 53, 53);
-    font-size: larger;
+    font-size: large;
+    padding: 20px;
 }
 
+main h4{
+    font-size: larger;
+    font-weight: bold;
+}
 #home-maps figure, img{
     display: inline;
     height: 30%;
@@ -49,4 +54,8 @@ main{
     text-decoration: none;
     color: black;
     display: flex;
+}
+
+#home-maps figcaption a:hover{
+    color: honeydew;
 }
