@@ -19,10 +19,9 @@ Date Last Modified:   3/11/2025
     <link rel="stylesheet" href="CSS-Styles/styles-for-treaties.css">
     <style>
     #home-maps figure, img{
-        display: inline;
+        display: flex;
         height: 30%;
         width: 70%;
-        border: 5px solid white;
         }
 
     #home-maps figcaption, a{
@@ -34,20 +33,28 @@ Date Last Modified:   3/11/2025
     #home-maps figcaption a:hover{
         color: honeydew;
     }
+    #home-maps-actual-map figure, img{
+        display: inline;
+        
+    }
     </style>
 </head>
 <body>
     <header>
         <h1><u><b>Treaty 1 - Simplified (Grade 4 - 8)</b></u></h1>
         <nav>
+            <form>
+                <label for="content"></label>
+                <input type="search" id="content" name="content" placeholder="Search">
+            </form>
             <a href="index.html" target="_self">Home</a>
             <a href="dissection.html" target="_self">Details</a>
             <a href="map.html" target="_self">Map</a>
         </nav>
     </header>
     <main>
-        <h4>Welcome to our website on Treaty 1</h4>
-        <p>We will be discussing the first of the Numbered Treaties - Treaty 1, which was the foundation for the formation of Manitoba as we know it today. Signed at Lower Fort Garry in 3 August, 1871 between Canada and the Anishinabek and the Swampy Cree of southern Manitoba. With both parties interests different, the Europeans foucesd on getting land and expanding influence, while the indigenous more on how to survive and protect their culture and descendants.
+        <h4><b><u>Welcome to Treaty 1 - Simplified (Grade 4 - 8)</u></b></h4>
+        <p>We will be discussing the first of the Numbered Treaties - Treaty 1, which was the foundation for the formation of Manitoba as we know it today. Signed at Lower Fort Garry in 3 August, 1871 between Canada and the Anishinabek and the Swampy Cree of southern Manitoba. With both parties interests different, the Europeans focused on getting land and expanding influence, while the indigenous more on how to survive and protect their culture and descendants, further leading them to engage in a treaty with the Europeans<sub>#1</sub>
             <p>We will be discussing:</p>
             <ul>
                 <li>Where and Why the Treaty was signed?</li>
@@ -57,10 +64,24 @@ Date Last Modified:   3/11/2025
         </p>
         <p>The map of the treaties are below, including a description of the Treaty One</p>
         <div id="home-maps">
-            <figure>
-                <img src="Images-for-treaties/map 2.jpg" alt="Another map of teh Numbered Treaties, talking about Treaty 1">
-            </figure><figcaption><a href="https://scoinc.mb.ca/treaties/" target="_blank">[2]</a></figcaption>
-        </div>
-    </main>
+            <div>
+                <figure style="display: inline-block; margin-right: 20px;"></figure>
+                    <img src="Images-for-treaties/lower fort garry.jpg" alt="An aerial view of lower fort garry in Manitoba">
+                    <figcaption><a href="#">[1]</a></figcaption>
+                </figure>
+                <figure style="display: inline-block;"></figure>
+                    <img src="Images-for-treaties/signing.jpg" alt="a visual representation of the signing of the treaty.">
+                    <figcaption><a href="#">[2]</a></figcaption>
+                </figure>
+                <figure>
+                    <img src="Images-for-treaties/map 2 better.jpg" alt="Another map of the Numbered Treaties, talking about Treaty 1" id="home-maps-actual-map">
+                    <figcaption><a href="https://scoinc.mb.ca/treaties/" target="_blank">[3]</a></figcaption>
+                </figure>
+            </div>
+    
+    <footer>
+        <h4>&copy;All rights reserved by Nwaeleme Ugonna | Click <a href="sources.html">here</a> to see sources</h4>
+    </footer>
+
 </body>
 </html>

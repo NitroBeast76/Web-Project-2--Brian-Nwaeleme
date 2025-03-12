@@ -1,8 +1,8 @@
 body{
     background-color: burlywood;
     box-sizing: border-box;
-    padding: 20px;
-    margin: 10px;
+    padding: 0;
+    margin: 0;
 }
 
 header{
@@ -12,21 +12,27 @@ header{
     justify-content: space-between;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
 }
 
 nav{
-    background-color: coral;
     font-size: larger;
     display: flex;
-    padding: 10px;
-    justify-content: space-around;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    
 }
 
 nav a{
     text-decoration: none;
     color: black;
+    margin-left: 20px;
 }
-
+nav form #content{
+    height: 30px;
+    border: 2px solid grey;
+}
 nav a:hover{
     color: lightyellow;
     text-decoration: underline;
@@ -35,11 +41,36 @@ nav a:hover{
 main{
     font-family: cursive;
     color: rgb(36, 53, 53);
-    font-size: large;
+    font-size: medium;
     padding: 20px;
 }
 
 main h4{
     font-size: larger;
     font-weight: bold;
+}
+
+footer{
+    text-align: center;
+    font-size: medium;
+    font-family:cursive;
+    background-color: navajowhite;
+    padding: 60px;
+    margin: 0px;
+}
+
+footer h4{
+    display: inline;
+    color: darkgreen;
+    font-size: medium;
+}
+
+footer h4 a{
+    display: inline;
+    color: darkgreen;
+}
+
+footer h4 a:hover{
+    color: aliceblue;
+    text-decoration: underline;
 }
