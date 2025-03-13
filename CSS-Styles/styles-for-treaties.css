@@ -49,6 +49,10 @@ sub a{
     color: black;
 }
 
+sub a:hover{
+    color: azure;
+}
+
 main h4{
     font-size: larger;
     font-weight: bold;
