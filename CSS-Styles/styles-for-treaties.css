@@ -58,6 +58,28 @@ main h4{
     font-weight: bold;
 }
 
+button{
+    background-color: rgb(243, 237, 244);
+    border: 2px solid white;
+    color: black;
+}
+
+button:hover {
+    color: red;
+}
+
+figcaption a{
+    font-style: italic;
+    text-decoration: none;
+    color: black;
+    margin-right: 5px;
+    display: flex;
+}
+
+figcaption a:hover{
+    color: red;
+}
+
 footer{
     text-align: center;
     font-size: medium;
@@ -81,4 +103,8 @@ footer h4 a{
 footer h4 a:hover{
     color: aliceblue;
     text-decoration: underline;
+}
+
+hr{
+    border: 1px solid black;
 }
