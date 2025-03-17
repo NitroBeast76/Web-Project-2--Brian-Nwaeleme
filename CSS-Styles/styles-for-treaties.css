@@ -57,19 +57,35 @@ main {
 
 /* Style for anchor tags inside sub elements */
 sub a {
-    display: inline; /* Displays links inline */
+    display: inline; /* Displays links as inline elements */
+    text-decoration: none; /* Removes underline from links */
     color: black; /* Sets text color to black */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Sets the font family */
 }
 
 /* Hover effect for anchor tags inside sub elements */
 sub a:hover {
-    color: azure; /* Changes text color on hover */
+    color: red; /* Changes text color on hover */
+}
+
+main h1 {
+    font-size: xx-large; /* Increases font size */
+    font-weight: bold; /* Makes text bold */
+}
+
+main h3 {
+    font-size: xx-large; /* Increases font size */
+    font-weight: bold; /* Makes text bold */
 }
 
 /* Style for h4 elements inside main */
 main h4 {
-    font-size: larger; /* Increases font size */
+    font-size: x-large; /* Increases font size */
     font-weight: bold; /* Makes text bold */
+}
+
+main p {
+    font-size: large; /* Increases font size */
 }
 
 /* Style for button elements */
@@ -133,3 +149,14 @@ hr {
     border: 1px solid black; /* Sets border color and width */
 }
 
+table, th, td {
+    border: 1px solid rgb(12, 11, 11); /* Sets border color and width */
+    border-collapse: collapse; /* Collapses table borders */
+    padding: 10px;
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+th, td{
+    background-color: white;
+}
