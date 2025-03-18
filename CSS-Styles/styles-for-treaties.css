@@ -53,6 +53,7 @@ main {
     font-size: medium; /* Sets font size */
     padding: 20px; /* Adds padding inside the main element */
     display: flexbox; /* Uses flexbox layout (should be 'flex' instead of 'flexbox') */
+    margin: 10px; /* Adds margin around the main element */
 }
 
 /* Style for anchor tags inside sub elements */
