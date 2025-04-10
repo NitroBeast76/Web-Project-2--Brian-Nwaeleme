@@ -52,7 +52,6 @@ main {
     color: rgb(51, 49, 49); /* Sets text color */
     font-size: medium; /* Sets font size */
     padding: 20px; /* Adds padding inside the main element */
-    display: flex; /* Uses flexbox layout */
     margin: 10px; /* Adds margin around the main element */
 }
 

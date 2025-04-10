@@ -23,11 +23,13 @@ Date Last Modified:   3/11/2025
     
     <!-- Internal CSS for specific styles -->
     <style>
+
         /* Styling for the map section */
         #home-maps figure, img {
             display: flex;
             height: 30%;
             width: 70%;
+            flex-wrap: wrap;
         }
 
         /* Styling for captions and links */
@@ -56,14 +58,16 @@ Date Last Modified:   3/11/2025
 <body>
     <header>
         <!-- Main heading of the webpage -->
-        <h1><u><b>Treaty 1 - Simplified (Grade 4 - 8)</b></u></h1>
+        <h1>
+            <u><b>Treaty 1 - Simplified (Grade 4 - 8)</b></u>
+        </h1>
         
         <!-- Navigation bar -->
         <nav>
             <!-- Search form -->
             <form>
                 <label for="content"></label>
-                <input type="search" id="content" name="content" placeholder="Search">
+                <input type="search" id="content" name="content" placeholder="Search" aria-label="Search the site">
             </form>
             <!-- Navigation links -->
             <a href="index.html" target="_self">Home</a>
@@ -73,12 +77,14 @@ Date Last Modified:   3/11/2025
     </header>
     <main>
         <!-- Subheading for the main content -->
-        <h4><b><u>Welcome to Treaty 1 - Simplified (Grade 4 - 8)</u></b></h4>
+        <h4>
+            <b><u>Welcome to Treaty 1 - Simplified (Grade 4 - 8)</u></b>
+        </h4>
         
         <!-- Introduction paragraph -->
         <p>
-            Treaty 1 was signed on August 3 1871, at Lower Fort Garry, was the first of the Numbered Treaties and fostered the creation of Mantioba as a whole. It was agreed upon by the Canadian Government and the Anishinabek and Swampy Cree peoples of southern Manitoba who both had different goals as a whole. The Canadian Government wanted land for expansion and to settle colonists, while the Indignous were pursuing their survival and protection of their culture for their descendants. 
-            <!--Source for this info-->
+            Treaty 1 was signed on August 3 1871, at Lower Fort Garry, was the first of the Numbered Treaties and fostered the creation of Manitoba as a whole. It was agreed upon by the Canadian Government and the Anishinabek and Swampy Cree peoples of southern Manitoba who both had different goals as a whole. The Canadian Government wanted land for expansion and to settle colonists, while the Indigenous were pursuing their survival and protection of their culture for their descendants. 
+            <!-- Source for this info -->
             <sub><a href="sources.html">#1</a></sub>
         </p>
         
@@ -95,19 +101,27 @@ Date Last Modified:   3/11/2025
         </ul>
         
         <!-- Map section with description -->
-        <p>The map of the treaties are below, including a description of the Treaty One</p>
+        <p>The map of the treaties is below, including a description of Treaty One:</p>
         <div id="home-maps">
             <figure>
                 <!-- Map image -->
-                <img src="Images-for-treaties/map 2 better.jpg" alt="Another map of teh Numbered Treaties, talking about Treaty 1" id="home-maps-actual-map">
+                <img 
+                    src="Images-for-treaties/map 2 better.jpg" 
+                    alt="Another map of the Numbered Treaties, talking about Treaty 1" 
+                    id="home-maps-actual-map">
                 <!-- Caption with external link -->
-                <figcaption><a href="https://scoinc.mb.ca/treaties/" target="_blank">[1]</a></figcaption>
+                <figcaption>
+                    <a href="https://scoinc.mb.ca/treaties/" target="_blank" aria-label="Visit SCO Treaty Information">[1]</a>
+                </figcaption>
             </figure>
         </div>
     </main>
     <footer>
         <!-- Footer content with copyright and source link -->
-        <h4>&copy;All rights reserved by Nwaeleme Ugonna | Click <a href="sources.html">here</a> to see sources</h4>
+        <h4>
+            &copy; All rights reserved by Nwaeleme Ugonna | Click 
+            <a href="sources.html" aria-label="View sources">here</a> to see sources
+        </h4>
     </footer>
 </body>
 </html>
