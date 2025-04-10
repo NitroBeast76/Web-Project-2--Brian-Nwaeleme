@@ -52,6 +52,7 @@ main {
     color: rgb(51, 49, 49); /* Sets text color */
     font-size: medium; /* Sets font size */
     padding: 20px; /* Adds padding inside the main element */
+    display: flex; /* Uses flexbox layout */
     margin: 10px; /* Adds margin around the main element */
 }
 
@@ -157,6 +158,7 @@ table, th, td {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-th, td{
-    background-color: white;
+/* Style for table header and table data cells */
+th, td {
+    background-color: white; /* Sets the background color of table cells to white */
 }
